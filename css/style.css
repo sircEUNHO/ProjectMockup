@@ -1,0 +1,103 @@
+/*
+	font-family: 'Dosis', sans-serif;
+	font-family: 'Sacramento', cursive;
+	font-family: 'Song Myung', serif; Supports Korean Char
+*/
+
+.sacramento {
+	font-family: 'Sacramento', cursive;
+}
+
+.main-nav{
+	transition: all ease-in-out 0.35s;
+}
+
+.navbar-brand.sacramento{
+	font-size: 2em;
+}
+
+.gradient-overlay{
+    height: 80%;
+    width: 100%;
+    z-index: 9;
+    top: 0;
+    position: absolute;
+	background: -moz-linear-gradient(top, rgba(216,27,96,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(216,27,96,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(216,27,96,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	
+	background: -moz-linear-gradient(top, rgba(244,143,177,0.65) 0%, rgba(244,143,177,0.62) 4%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(244,143,177,0.65) 0%,rgba(244,143,177,0.62) 4%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(244,143,177,0.65) 0%,rgba(244,143,177,0.62) 4%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.pink{
+	/*background-color: #C2185B;*/
+	background-color: #FF4D80
+}
+
+.swiper-container {
+    height: 500px;
+}
+
+.main-slider .bg-img{
+	height: 100%;
+	width: 100%;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	/*background-attachment: fixed;;*/
+}
+
+.main-slider .slider-content{
+	z-index: 10;
+	position: absolute;
+	height: 100%;
+}
+
+.main-slider .slider-content .title.sacramento{
+	font-size: 50px;
+}
+
+.btn-outline-pink {
+    padding: .5rem 1.6rem;
+	border: 5px solid #FF4D80;
+	color: #FF4D80;
+	box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.39);
+	border-radius: 30px;
+	background-color: white;
+	transition: color .15s ease-in-out,
+		background-color .15s ease-in-out,
+		border-color .15s ease-in-out,
+		box-shadow .15s ease-in-out,
+		transform .15s ease-in-out;
+}
+
+.btn-outline-pink:hover, .btn-outline-danger.btn-outline-pink:not(:disabled):not(.disabled):active{
+	/*border: 5px solid white;*/
+	border: 5px solid #FF4D80;
+	color: white;
+	transform: scale(1.2);
+	border-radius: 30px;
+	background-color: #FF4D80;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+
+}
